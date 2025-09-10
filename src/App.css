@@ -1,6 +1,3 @@
-/* ============================= */
-/* 🌟 Global Styles              */
-/* ============================= */
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -23,18 +20,11 @@ html {
   padding: 2rem;
 }
 
-/* ============================= */
-/* 🌟 Section Styling            */
-/* ============================= */
-
 section {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-/* ============================= */
-/* 🌟 Project Cards              */
-/* ============================= */
 
 .project-card {
   background: #ffffff;
@@ -48,9 +38,7 @@ section {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* ============================= */
-/* 🌟 Buttons                    */
-/* ============================= */
+
 
 .btn-primary {
   display: inline-block;
@@ -67,9 +55,7 @@ section {
   transform: scale(1.05);
 }
 
-/* ============================= */
-/* 🌟 Contact Links              */
-/* ============================= */
+
 
 .contact-link {
   color: #2563eb;
@@ -82,9 +68,7 @@ section {
   text-decoration: underline;
 }
 
-/* ============================= */
-/* 🌟 Footer                     */
-/* ============================= */
+
 
 footer {
   font-size: 0.9rem;

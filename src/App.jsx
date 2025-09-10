@@ -18,7 +18,6 @@ function App() {
       title: "Portfolio Website",
       description: "Personal portfolio built with React and Tailwind.",
       link: "#",
-      
     },
 
     {
@@ -26,16 +25,14 @@ function App() {
       description: "A web-based voting app with real-time results.",
       link: "#",
     },
-
   ];
 
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
-      {/* Header */}
-      <header className="p-6 bg-blue-600 text-white shadow-md">
+      <section className="p-6 bg-blue-600/70 text-white shadow-md backdrop-blur-sm">
         <h1 className="text-3xl font-bold">My Portfolio</h1>
         <p className="text-sm">React Developer | Backend Enthusiast</p>
-      </header>
+      </section>
 
       {/* About Section */}
       <section className="p-8 text-center">
@@ -47,8 +44,9 @@ function App() {
           About Me
         </motion.h2>
         <p className="max-w-2xl mx-auto">
-          Hi Im Prynce Carlo Clemente, I’m a passionate developer who enjoys building interactive web apps
-          and backend systems. I work with React, Node.js, and MySQL.
+          Hi Im Prynce Carlo Clemente, I’m a passionate developer who enjoys
+          building interactive web apps and backend systems. I work with React,
+          Node.js, and MySQL.
         </p>
       </section>
 
