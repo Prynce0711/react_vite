@@ -1,0 +1,97 @@
+/* ============================= */
+/* 🌟 Global Styles              */
+/* ============================= */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/istockphoto-1822889082-612x612.jpg");
+  background-size: cover;     /* Cover whole screen */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Stays fixed when scrolling */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Root container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ============================= */
+/* 🌟 Section Styling            */
+/* ============================= */
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* ============================= */
+/* 🌟 Project Cards              */
+/* ============================= */
+
+.project-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================= */
+/* 🌟 Buttons                    */
+/* ============================= */
+
+.btn-primary {
+  display: inline-block;
+  background-color: #2563eb; /* Tailwind blue-600 */
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.btn-primary:hover {
+  background-color: #1e40af; /* Tailwind blue-800 */
+  transform: scale(1.05);
+}
+
+/* ============================= */
+/* 🌟 Contact Links              */
+/* ============================= */
+
+.contact-link {
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.contact-link:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+/* ============================= */
+/* 🌟 Footer                     */
+/* ============================= */
+
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+  background: #2563eb;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
