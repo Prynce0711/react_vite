@@ -14,17 +14,14 @@ function App() {
         <h2>Hi, I’m Prynce Carlo Clemente</h2>
 
         <div className="profile-picture">
-          {/* Replace with your image */}
           <img src="/profile.jpg" />
-          <p>Welcome to my portfolio! 👋</p>
+          <h4>Welcome to my portfolio! 👋</h4>
 
           <p>
             I'm a passionate React developer with a knack for building dynamic
-            and responsive web applications. Explore my projects and feel free to
-            reach out!
+            and responsive web applications. Explore my projects and feel free
+            to reach out!
           </p>
-
-          
         </div>
       </main>
 
@@ -51,7 +48,7 @@ function App() {
         <Contact />
       </section>
 
-      {/* ✅ Footer stays at bottom */}
+     
       <Footer />
     </div>
   );
